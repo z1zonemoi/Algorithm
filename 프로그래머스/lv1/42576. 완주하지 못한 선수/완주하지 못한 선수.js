@@ -1,7 +1,7 @@
 function solution(participant, completion) {
     var answer = '';
     let result = {};
-    let totalPeople = participant.map(name=>{
+    participant.map(name=>{
         if(result[name]){
             return result[name] = result[name] + 1
         }
