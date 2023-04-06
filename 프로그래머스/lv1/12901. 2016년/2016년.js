@@ -10,7 +10,7 @@ function solution(a, b) {
         if(count === 2)  days += 29;
         if(day31.includes(count))  days += 31;
         if(day30.includes(count))  days += 30;
-        count ++
+        count++
     }
     
     days += b;
