@@ -9,7 +9,6 @@ function solution(k, m, score) {
         bundleApple.push(score.slice(i,i+m))
     }
     
-    console.log(bundleApple)
-    answer = bundleApple.reduce((acc,cur)=>acc+(Math.min(...cur)*m),0)
+    answer = bundleApple.reduce((acc,cur)=>acc+(cur[m-1]*m),0)
     return answer;
 }
