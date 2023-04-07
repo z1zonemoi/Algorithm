@@ -10,7 +10,7 @@ function solution(nums) {
             }
         }
     };
-    console.log(sum)
+
     const isDecimal = (num)=>{
         if(underNine.includes(num)) return true;
         
