@@ -1,6 +1,7 @@
-// 조합을 통해 숫자 만들기 (맨 앞 0이면 제거)
+// 순열을 통해 숫자 만들기
 // 소수인지 확인하는 함수에 넣기
-// 소수라면 카운트
+// set으로 중복 제거 후 size 확인
+
 
 function solution(numbers) {
     const answer = new Set();
